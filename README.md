@@ -1,5 +1,17 @@
 # Data-Challenge-2020
 
+## (customized) Lightgbm
+
+
+<br>
+
+<p align="center">
+  <img src="https://www.statworx.com/wp-content/uploads/machine.png"  width="450" height="200"/>
+</p>
+
+<br>
+
+
 Xgboost use a **second ordre Taylor approximation**,light gbm also request the gradient and the hessien in its cost function, very alike to Xgboost. For binary classification, we use a log loss:
 𝐿=−𝑦ln𝑝−𝛽(1−𝑦)ln(1−𝑝)$$ $p$ as the probability estimated by sigmoid function. 𝛽 is the multiplier factor to increase the weight of FP loss.
 
