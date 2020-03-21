@@ -1,6 +1,6 @@
 # Data Challenge
-## **MS Telecom Big Data | MDI343 Machine Learning**
-## **Data Challenge | Fusion of Face Recognition Algorithms**
+## MS Telecom Big Data | MDI343 Machine Learning
+## Data Challenge | Fusion of Face Recognition Algorithms
 
 
 
