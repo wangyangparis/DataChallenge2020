@@ -12,6 +12,14 @@ MS Telecom Big Data | MDI343 Machine Learning
 
 ## (customized) Lightgbm
 ### Custom Loss Function, penalty for FP
+In many cases, **we cann't assume that the cost of classifying things is
+equal**. For example, we build a system to detect whether a horse with stomach pain would end up living or dying.  Let’s say someone brings a horse to us and
+asks us to predict whether the horse will live or die. We say die, and rather than delay
+the inevitable, making the animal suffer and incurring veterinary bills, they have it
+euthanized. Perhaps our prediction was wrong, and the horse would have lived. If we predicted this incorrectly, then an expensive animal would have been destroyed, not to mention that a human was emotionally attached to the animal. 
+
+Besides tuning the thresholds of our classifier, there are other approaches e to aid with uneven classification costs. One such method is known as costsensitive learning.
+
 Xgboost use a **second ordre Taylor approximation**,light gbm also request the gradient and the hessien in its cost function, very alike to Xgboost. For binary classification, we use a log loss:
 𝐿=−𝑦ln𝑝−𝛽(1−𝑦)ln(1−𝑝)$$ $p$ as the probability estimated by sigmoid function. 𝛽 is the multiplier factor to increase the weight of FP loss.
 
