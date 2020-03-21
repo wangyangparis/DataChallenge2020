@@ -1,6 +1,5 @@
-# Data-Challenge-2020
+# Data Challenge
 ## **MS Telecom Big Data | MDI343 Machine Learning**
-
 ## **Data Challenge | Fusion of Face Recognition Algorithms**
 
 ## (customized) Lightgbm
