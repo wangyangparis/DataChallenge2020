@@ -9,6 +9,6 @@ $$grad =\frac{∂𝐿}{∂𝑥}=\frac{∂𝐿}{∂𝑝}\frac{∂𝑝}{∂𝑥}=�
 
 and hessien as:
 
-$$hess =∂2𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)$$
+$$ hess =∂2𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦) $$
 
  **Customizing the training loss** in LightGBM requires defining a function that takes in two arrays, the targets and their predictions. In turn, the function should return two arrays of the gradient and hessian of each observation. As noted above, we need to use calculus to derive gradient and hessian and then implement it in Python.
