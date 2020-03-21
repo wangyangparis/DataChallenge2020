@@ -2,7 +2,7 @@
 ## **MS Telecom Big Data | MDI343 Machine Learning**
 ## **Data Challenge | Fusion of Face Recognition Algorithms**
 
-## (customized) Lightgbm
+
 
 
 <br>
@@ -13,7 +13,7 @@
 
 <br>
 
-
+## (customized) Lightgbm
 Xgboost use a **second ordre Taylor approximation**,light gbm also request the gradient and the hessien in its cost function, very alike to Xgboost. For binary classification, we use a log loss:
 𝐿=−𝑦ln𝑝−𝛽(1−𝑦)ln(1−𝑝)$$ $p$ as the probability estimated by sigmoid function. 𝛽 is the multiplier factor to increase the weight of FP loss.
 
