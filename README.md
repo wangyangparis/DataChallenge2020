@@ -6,7 +6,7 @@
 <br>
 
 <p align="center">
-  <img src="https://www.statworx.com/wp-content/uploads/machine.png"  width="450" height="200"/>
+  <img src="https://www.statworx.com/wp-content/uploads/machine.png"  width="450" height="450"/>
 </p>
 
 <br>
