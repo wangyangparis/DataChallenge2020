@@ -27,7 +27,7 @@ Here, the performance criterion is TPR for the value of FPR = 0.0001, or, speaki
 
 <br>
 
-## (Customized) Lightgbm
+## Main algorithm used - (Customized) Lightgbm
 ### Custom Loss Function, penalty for FP
 In many cases, **we cann't assume that the cost of classifying things is
 equal**. For example, we build a system to detect whether a horse with stomach pain would end up living or dying.  Let’s say someone brings a horse to us and
