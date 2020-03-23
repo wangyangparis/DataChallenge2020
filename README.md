@@ -1,6 +1,7 @@
 # Data Challenge
 MS Telecom Big Data 
-## Challenge Large Scale Machine Learning
+
+Challenge Large Scale Machine Learning
 ## Fusion of algorithms for face recognition
 Authors: Telecom Paris
 
