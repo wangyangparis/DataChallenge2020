@@ -1,8 +1,6 @@
 # Data Challenge
-Fusion of Face Recognition Algorithms | 
-MS Telecom Big Data | MDI343 Machine Learning
-
-Challenge Large Scale Machine Learning
+MS Telecom Big Data 
+## Challenge Large Scale Machine Learning
 ## Fusion of algorithms for face recognition
 Authors: Telecom Paris
 
