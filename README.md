@@ -3,7 +3,7 @@ Fusion of Face Recognition Algorithms |
 MS Telecom Big Data | MDI343 Machine Learning
 
 Challenge Large Scale Machine Learning
-Fusion of algorithms for face recognition
+## Fusion of algorithms for face recognition
 Authors: Telecom Paris
 
 The increasingly ubiquitous presence of biometric solutions and face recognition in particular in everyday life requires their adaptation for practical scenario. In the presence of several possible solutions, and if global decisions are to be made, each such single solution can be far less efficient than tailoring them to the complexity of an image.
@@ -12,16 +12,13 @@ In this challenge, the goal is to build a fusion of algorithms in order to const
 
 Comparing of two images is done in two steps. 1st, a vector of features is computed for each image. 2nd, a simple function produces a vector of scores for a pair of images. The goal is to create a function that will compare a pair of images based on the information mentioned above, and decide whether two images belong to the same person.
 
-For each of these 38 variables, there are in total 9,800,713 training observations.
+There are in total 9,800,713 training observations.
 There are in total 3,768,311 test observations.
 
-The performance criterion
-Consider the problem of the supervised classification with two classes labeled '0' and '1'. Many methods for supervised classification assign a new observation $\boldsymbol{x}$ to a class using the following rule:</p>$$\begin{align}
-g(\boldsymbol{x}) = \begin{cases}1 &amp; \text{ if } f(\boldsymbol{x}) \ge t, \ 0 &amp; \text{ otherwise}.\end{cases}
-\end{align}$$
-Threshold $t$ is then chosen due to specific needs managing the trade-off between the true positive rate (TPR) and the false positive rate (FPR), depending on the cost of the corresponding mistakes.
+### The performance criterion
+You need to manage the trade-off between the true positive rate (TPR) and the false positive rate (FPR), depending on the cost of the corresponding mistakes.
 
-Here, the performance criterion is TPR for the value of FPR = $10^{-4}$, or, speaking in other words, one needs to maximize the value of the receiver operating characteristic (ROC) in the point FPR = $10^{-4}$. The submitted solution file should thus contain the score for each observation.
+Here, the performance criterion is TPR for the value of FPR = 0.0001, or, speaking in other words, one needs to maximize the value of the receiver operating characteristic (ROC) in the point FPR = 0.0001. 
 
 <br>
 
