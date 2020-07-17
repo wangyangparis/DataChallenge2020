@@ -19,16 +19,25 @@ You need to manage the trade-off between the true positive rate (TPR) and the fa
 
 Here, the performance criterion is TPR for the value of FPR = 0.0001, or, speaking in other words, one needs to maximize the value of the receiver operating characteristic (ROC) in the point FPR = 0.0001. 
 
+## EDA 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wangyangparis/DataChallenge2020/master/Images/EDA1.png"  width="450" />
+  <img src="https://raw.githubusercontent.com/wangyangparis/DataChallenge2020/master/Images/EDA2.png"  width="450" />
+</p>
+
+
+## Main algorithm used - (Customized) Lightgbm
+### Custom Loss Function, penalty for FP
+
 <br>
 
 <p align="center">
-  <img src="https://www.statworx.com/wp-content/uploads/machine.png"  width="450" height="450"/>
+  <img src="https://www.statworx.com/wp-content/uploads/machine.png"  width="400" />
 </p>
 
 <br>
 
-## Main algorithm used - (Customized) Lightgbm
-### Custom Loss Function, penalty for FP
 In many cases, **we cann't assume that the cost of classifying things is
 equal**. For example, we build a system to detect whether a horse with stomach pain would end up living or dying.  Let’s say someone brings a horse to us and
 asks us to predict whether the horse will live or die. We say die, and rather than delay
