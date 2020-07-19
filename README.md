@@ -3,7 +3,7 @@ MS Telecom Big Data
 
 Challenge Large Scale Machine Learning
 ## Fusion of algorithms for face recognition
-Authors: Telecom Paris
+- Yang WANG
 
 The increasingly ubiquitous presence of biometric solutions and face recognition in particular in everyday life requires their adaptation for practical scenario. In the presence of several possible solutions, and if global decisions are to be made, each such single solution can be far less efficient than tailoring them to the complexity of an image.
 
