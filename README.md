@@ -22,8 +22,8 @@ Here, the performance criterion is TPR for the value of FPR = 0.0001, or, speaki
 ## EDA 
 I invented some graphs to see the correlations amonge features.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wangyangparis/DataChallenge2020/master/Images/EDA1.png"  width="450" />
-  <img src="https://raw.githubusercontent.com/wangyangparis/DataChallenge2020/master/Images/EDA2.png"  width="450" />
+  <img src="https://raw.githubusercontent.com/wangyangparis/DataChallenge2020/master/Images/EDA1.png"  width="650" />
+  <img src="https://raw.githubusercontent.com/wangyangparis/DataChallenge2020/master/Images/EDA2.png"  width="650" />
 </p>
 
 
